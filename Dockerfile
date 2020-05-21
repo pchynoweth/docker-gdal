@@ -5,4 +5,4 @@ RUN apt-get update && apt-get upgrade -y && \
 
 RUN pip3 install --global-option=build_ext \
     --global-option=--gdal-config=/usr/bin/gdal-config \
-    --global-option=--include-dirs=/usr/include/gdal/ GDAL==3.0.0
+    --global-option=--include-dirs=/usr/include/gdal/ GDAL==3.1.0
